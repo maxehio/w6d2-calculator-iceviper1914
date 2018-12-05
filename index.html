@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Calculator</title>
+    <meta name="description" content="calculator">
+    <meta name="author" content="SitePoint">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css"/>
+
+</head>
+<body>
+    <script src="main.js"></script>
+    <form name="calculator">
+    <form name="form">
+        <input class="textview" name="textview" disabled>
+    </form>
+        
+            <table>
+                <tr>
+                    <td><input class="button" type="button"value="C" onclick="clean()"></a></td>
+                </tr>
+                <tr>
+                    <td><input class="button" type="button" value="7" onclick="insert(7)"></a></td>
+                    <td><input class="button" type="button" value="8" onclick="insert(8)"></a></td>
+                    <td><input class="button" type="button" value="9" onclick="insert(9)"></a></td>
+                    <td><input class="button" type="button" value="/" onclick="insert('/')"></a></td>
+                </tr>
+                <tr>
+                    <td><input class="button" type="button" value="4" onclick="insert(4)"></a></td>
+                    <td><input class="button" type="button" value="5" onclick="insert(5)"></a></td>
+                    <td><input class="button" type="button" value="6" onclick="insert(6)"></a></td>
+                    <td><input class="button" type="button" value="x" onclick="insert('*')"></a></td>
+                </tr>
+            <tr>
+                <td><input class="button" type="button" value="1"  onclick="insert(1)"></a></td>
+                <td><input class="button" type="button" value="2"  onclick="insert(2)"></a></td>
+                <td><input class="button" type="button" value="3"  onclick="insert(3)"></a></td>
+                <td><input class="button" type="button" value="-"  onclick="insert('-')"></a></td>
+            </tr>
+                <tr>
+                    <td><input class="button" type="button" value="0" onclick="insert(0)"></a></td>
+                    <td><input class="button" type="button" value="." onclick="insert(.)"></a></td>
+                    <td><input class="button" type="button" value="=" onclick="equal()"></a></td>
+                    <td><input class="button" type="button" value="+" onclick="insert('+')"></a></td>
+                </tr>
+            </table>
+    </form>
+</body>
+</html>
+
