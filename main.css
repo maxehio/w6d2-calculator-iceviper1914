@@ -2,3 +2,25 @@
 /* have a place for output */
 /* eventlisteners to update output */
 
+.button {
+    background-color: gray;
+    height: 100px;
+    width: 100px;
+    font-size: 25px;
+}
+
+.textview{
+    height: 100px;
+    width: 400px;
+    border-color: red;
+    border: 80 px;
+    font-size: 80px;
+}
+
+.main{
+    background-color: #BCA3C0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%)translateY(-50%)
+}
